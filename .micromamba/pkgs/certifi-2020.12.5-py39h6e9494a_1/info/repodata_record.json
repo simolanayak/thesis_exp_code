@@ -1,0 +1,23 @@
+{
+    "arch": "x86_64",
+    "build": "py39h6e9494a_1",
+    "build_number": 1,
+    "build_string": "py39h6e9494a_1",
+    "channel": "https://conda.anaconda.org/conda-forge/osx-64",
+    "constrains": [],
+    "depends": [
+        "python >=3.9,<3.10.0a0",
+        "python_abi 3.9.* *_cp39"
+    ],
+    "fn": "certifi-2020.12.5-py39h6e9494a_1.tar.bz2",
+    "license": "ISC",
+    "md5": "c678a84c6d59bcd97462b666e288b870",
+    "name": "certifi",
+    "platform": "osx",
+    "sha256": "1f6d41129b28cf132832837666cf4e67a09af73d26e197e7e4d4740d9ca045b5",
+    "size": 146425,
+    "subdir": "osx-64",
+    "timestamp": 1609975597304,
+    "url": "https://conda.anaconda.org/conda-forge/osx-64/certifi-2020.12.5-py39h6e9494a_1.tar.bz2",
+    "version": "2020.12.5"
+}

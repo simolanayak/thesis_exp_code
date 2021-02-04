@@ -1,0 +1,30 @@
+# This file created by conda-build 3.20.3
+# meta.yaml template originally from:
+# /Users/runner/work/1/s/recipe, last modified Thu Oct  8 04:43:38 2020
+# ------------------------------------------------
+
+package:
+    name: python_abi
+    version: '3.9'
+build:
+    number: '1'
+    string: 1_cp39
+requirements:
+    run:
+        - python 3.9.*
+    run_constrained:
+        - pypy <0a0
+test:
+    commands:
+        - python --version
+about:
+    home: https://github.com/conda-forge/python_abi-feedstock
+    license: BSD-3-Clause
+    license_family: BSD
+    license_file: LICENSE
+    summary: Metapackage to select python implementation
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - isuruf

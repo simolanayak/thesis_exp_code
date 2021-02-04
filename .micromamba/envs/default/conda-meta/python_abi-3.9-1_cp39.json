@@ -1,0 +1,37 @@
+{
+    "arch": "x86_64",
+    "build": "1_cp39",
+    "build_number": 1,
+    "build_string": "1_cp39",
+    "channel": "https://conda.anaconda.org/conda-forge/osx-64",
+    "constrains": [
+        "pypy <0a0"
+    ],
+    "depends": [
+        "python 3.9.*"
+    ],
+    "extracted_package_dir": "/Users/simolanayak/Desktop/THESIS/MULTIAGENT_RESEARCH_CODE/.micromamba/pkgs/python_abi-3.9-1_cp39",
+    "files": [],
+    "fn": "python_abi-3.9-1_cp39.tar.bz2",
+    "license": "BSD-3-Clause",
+    "license_family": "BSD",
+    "link": {
+        "source": "/Users/simolanayak/Desktop/THESIS/MULTIAGENT_RESEARCH_CODE/.micromamba/pkgs/python_abi-3.9-1_cp39",
+        "type": 1
+    },
+    "md5": "538aaaaa7300d8cefba993d78a390592",
+    "name": "python_abi",
+    "package_tarball_full_path": "/Users/simolanayak/Desktop/THESIS/MULTIAGENT_RESEARCH_CODE/.micromamba/pkgs/python_abi-3.9-1_cp39.tar.bz2",
+    "paths_data": {
+        "paths": [],
+        "paths_version": 1
+    },
+    "platform": "osx",
+    "requested_spec": "TODO",
+    "sha256": "45e9f4f7f50ed9d20b4feb6ac3ea6622da68cba96ec6027f3f0e2233394d81e3",
+    "size": 3921,
+    "subdir": "osx-64",
+    "timestamp": 1602132343309,
+    "url": "https://conda.anaconda.org/conda-forge/osx-64/python_abi-3.9-1_cp39.tar.bz2",
+    "version": "3.9"
+}

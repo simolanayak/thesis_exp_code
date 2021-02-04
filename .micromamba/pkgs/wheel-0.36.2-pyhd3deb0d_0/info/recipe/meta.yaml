@@ -1,0 +1,59 @@
+# This file created by conda-build 3.20.5
+# meta.yaml template originally from:
+# /home/conda/recipe_root, last modified Sun Dec 13 19:44:26 2020
+# ------------------------------------------------
+
+package:
+    name: wheel
+    version: 0.36.2
+source:
+    sha256: e11eefd162658ea59a60a0f6c7d493a7190ea4b9a85e335b33489d9f17e0245e
+    url: https://pypi.io/packages/source/w/wheel/wheel-0.36.2.tar.gz
+build:
+    entry_points:
+        - wheel = wheel.cli:main
+    noarch: python
+    number: '0'
+    script: python setup.py install --single-version-externally-managed --record=record.txt
+    string: pyhd3deb0d_0
+requirements:
+    host:
+        - _libgcc_mutex 0.1 conda_forge
+        - _openmp_mutex 4.5 1_gnu
+        - ca-certificates 2020.12.5 ha878542_0
+        - certifi 2020.12.5 py36h5fab9bb_0
+        - ld_impl_linux-64 2.35.1 hea4e1c9_1
+        - libffi 3.3 h58526e2_2
+        - libgcc-ng 9.3.0 h5dbcf3e_17
+        - libgomp 9.3.0 h5dbcf3e_17
+        - libstdcxx-ng 9.3.0 h2ae2ef3_17
+        - ncurses 6.2 h58526e2_4
+        - openssl 1.1.1i h7f98852_0
+        - python 3.6.12 hffdb5ce_0_cpython
+        - python_abi 3.6 1_cp36m
+        - readline 8.0 he28a2e2_2
+        - setuptools 49.6.0 py36h9880bd3_2
+        - sqlite 3.34.0 h74cdb3f_0
+        - tk 8.6.10 hed695b0_1
+        - xz 5.2.5 h516909a_1
+        - zlib 1.2.11 h516909a_1010
+    run:
+        - python
+test:
+    commands:
+        - wheel --help
+    imports:
+        - wheel
+about:
+    home: https://github.com/pypa/wheel
+    license: MIT
+    license_file: LICENSE.txt
+    summary: A built-package format for Python.
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - jakirkham
+        - mingwandroid
+        - ocefpaf
+        - pelson

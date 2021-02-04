@@ -1,0 +1,25 @@
+{
+    "arch": "x86_64",
+    "build": "py39h6e9494a_3",
+    "build_number": 3,
+    "build_string": "py39h6e9494a_3",
+    "channel": "https://conda.anaconda.org/conda-forge/osx-64",
+    "constrains": [],
+    "depends": [
+        "certifi >=2016.9.26",
+        "python >=3.9,<3.10.0a0",
+        "python_abi 3.9.* *_cp39"
+    ],
+    "fn": "setuptools-49.6.0-py39h6e9494a_3.tar.bz2",
+    "license": "MIT",
+    "license_family": "MIT",
+    "md5": "f4f757b28d82aae4f8c7f5aac5c9e477",
+    "name": "setuptools",
+    "platform": "osx",
+    "sha256": "0ba3831036e55447228123eb318ad643eb31dc27ad2cc2ba78dcb7fb55b3afd8",
+    "size": 972968,
+    "subdir": "osx-64",
+    "timestamp": 1610083963966,
+    "url": "https://conda.anaconda.org/conda-forge/osx-64/setuptools-49.6.0-py39h6e9494a_3.tar.bz2",
+    "version": "49.6.0"
+}

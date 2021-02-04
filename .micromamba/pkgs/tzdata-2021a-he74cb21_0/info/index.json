@@ -1,0 +1,13 @@
+{
+  "arch": null,
+  "build": "he74cb21_0",
+  "build_number": 0,
+  "depends": [],
+  "license": "LicenseRef-Public-Domain",
+  "name": "tzdata",
+  "noarch": "generic",
+  "platform": null,
+  "subdir": "noarch",
+  "timestamp": 1611605167369,
+  "version": "2021a"
+}
