@@ -1,6 +1,0 @@
-{
-  "target_platform": "osx-64",
-  "dummy_var": "0",
-  "channel_targets": "conda-forge main",
-  "openturns": "1.16"
-}
