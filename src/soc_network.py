@@ -14,13 +14,18 @@ import networkx as nx
 def make_small_world(maxdeg, density, numnodes):
     pass
 class SocialNetwork:
-    def __init__(self, numnodes=None, adjmat=None, nettype="complete", density=1.0, maxdeg=6, is_directed=False):
+    def __init__(self, numnodes=None, adjmat=None, nettype="complete",
+                 density=1.0, maxdeg=6, is_directed=False, forests=False,
+                 num_forests=1):
         self.numnodes = numnodes
         self.adjmat = adjmat
         self.nettype = nettype
         self.density = density
         self.nxgraph = None
         self.is_directed = is_directed
+        self.num_forest = num_forests
+        if num_forests == 1:
+            self.num_forests
         
         if nettype == 'complete' or nettype == 'c':
             self.nxgraph = nx.complete_graph(numnodes)
