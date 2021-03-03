@@ -1,3 +1,7 @@
+import socnet
+import socnet_viz
+
+
 def mutual_intelligibility_community(community):
     pass
 
@@ -9,4 +13,3 @@ def dialect_continuum_viz(community):
 
 def get_clusters(community):
     pass
-
