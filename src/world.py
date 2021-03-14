@@ -6,10 +6,4 @@ class GameWorld:
         pass
     
     def partition(self, agent1, agent2):
-        """ Obscures one part of gameworld from the other agent
-
-        Args:
-            agent1 (Agent): Agent sending message
-            agent2 (Agent): Agent to retrieve object 
-        """
         pass

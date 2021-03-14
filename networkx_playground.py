@@ -3,8 +3,8 @@ import matplotlib.pyplot as plt
 
 from egg import core
 
-G = nx.scale_free_graph(50)
-G = nx.to_undirected(G)
+nodenames = ['alpha','beta','gamma','delta','epsilon','zeta','eta','theta']
+G = nx.complete_graph(nodenames)
+print(nx.adjacency_matrix(G))
 nx.draw(G)
-adj = nx.adjacency(G)
 plt.show()
